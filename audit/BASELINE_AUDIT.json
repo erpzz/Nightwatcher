@@ -1,0 +1,22 @@
+{
+  "observed_on": "2026-09-15",
+  "base_commit": "3e92c9b7a2c017798d07140a65b82991e40c947f",
+  "base_tree": "5957e19edc7048a23ba6e8d09525c4408ad17520",
+  "main_commit": "ed98f478d270946ed2da431fdcb23ee701a1a5d7",
+  "branch": "nightwatcher/bootstrap-nw00",
+  "branches_reported_protected": false,
+  "original_blob_count": 11,
+  "base_blob_comparison": "All 11 matched after retrieving the exact tests/__init__.py and preserving README without a final newline.",
+  "missing_from_remote_base": [
+    "docs/handoff/",
+    "audit/"
+  ],
+  "historical_limits": [
+    "No remote Git clone in execution environment: external DNS unavailable.",
+    "No repository administration/audit-log inspection or independent release witness.",
+    "An observed starting point is not a historically known-good state."
+  ],
+  "sabotage_finding": "not_established",
+  "main_modified_by_this_milestone": false,
+  "subagents_used": false
+}

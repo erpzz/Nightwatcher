@@ -1,0 +1,137 @@
+{
+  "recorded_at_utc": "2026-09-15T14:03:12.251790+00:00",
+  "transport": "actual localhost TCP / HTTP; not TestClient",
+  "storage": "SQLite WAL / FULL on disposable local filesystem",
+  "public_network_collector_tested": false,
+  "checks": [
+    {
+      "name": "actual_localhost_http",
+      "passed": true
+    },
+    {
+      "name": "anonymous_read_denied",
+      "passed": true
+    },
+    {
+      "name": "source_enrollment",
+      "passed": true
+    },
+    {
+      "name": "real_observation_accepted",
+      "passed": true
+    },
+    {
+      "name": "actual_http_idempotence",
+      "passed": true
+    },
+    {
+      "name": "durable_pending_job_visible",
+      "passed": true
+    },
+    {
+      "name": "heartbeat_not_complete",
+      "passed": true
+    },
+    {
+      "name": "collector_checkpoint_recorded",
+      "passed": true
+    },
+    {
+      "name": "separate_worker_process",
+      "passed": true
+    },
+    {
+      "name": "normal_real_event_no_candidate",
+      "passed": true
+    },
+    {
+      "name": "normalized_hash_present",
+      "passed": true
+    },
+    {
+      "name": "restart_distinct_process",
+      "passed": true
+    },
+    {
+      "name": "event_persists_across_process_restart",
+      "passed": true
+    },
+    {
+      "name": "jobs_persist_across_restart",
+      "passed": true
+    },
+    {
+      "name": "actual_elapsed_time_sensor_stale",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_recovers_freshness",
+      "passed": true
+    },
+    {
+      "name": "local_chain_verified_not_release_approval",
+      "passed": true
+    },
+    {
+      "name": "disable_does_not_claim_external_stop",
+      "passed": true
+    },
+    {
+      "name": "revoked_collector_denied",
+      "passed": true
+    }
+  ],
+  "original_health_response": "{\"service\":\"nightwatcher\",\"mode\":\"local_pilot\",\"live_monitoring_claim\":false}",
+  "evidence_export": {
+    "schema_version": 1,
+    "plane": "operational",
+    "events": [
+      {
+        "seq": 1,
+        "id": "649c177db28e98bc84221ef367c6907768520999988475a6a2e27b3755b136da",
+        "org_id": "local-owner",
+        "source_id": "local-service-observer",
+        "plane": "operational",
+        "policy_hash": "10e875b2385892bcc44dbe42fbc44f772f7478a8ed92aba688b2009dbb0520ff",
+        "payload": {
+          "action": "runtime_observed",
+          "actor": "local-observer",
+          "artifact_digest": "e3c232b7a694da489196d729651293f14846450301e885d06d5a70129c350067",
+          "authorization": "allowed",
+          "event_id": "local-health-1789480983910513300",
+          "event_time": "2026-09-15T14:03:03.910507Z",
+          "outcome": "success",
+          "receipt_id": "http-healthz-1789480983910530363",
+          "resource": "nightwatcher-local-api",
+          "revision": null,
+          "schema_version": 1,
+          "time_uncertainty_ms": 1000,
+          "workload": "local-api"
+        },
+        "payload_hash": "67ad68aa568a6e3d29b67066b789d678d09d3ecedb223969d1eebc8902ae6f2f",
+        "received": 1789480983.9124253,
+        "occurred": 1789480983.910507,
+        "resource": "nightwatcher-local-api",
+        "artifact_digest": "e3c232b7a694da489196d729651293f14846450301e885d06d5a70129c350067",
+        "source_trust_domain": "local-process-observer",
+        "external_artifact_verified": false
+      }
+    ],
+    "findings": [],
+    "findings_truncated": false,
+    "next_after": null,
+    "checkpoint": {
+      "entries": 8,
+      "head": "99f60edbd89d617364ebdec6005a2f8712c636d523d15ae8031c63930560fcca"
+    },
+    "limits": "Local hash chain, not an independent witness. Event hashes cover normalized records, not external source bytes."
+  },
+  "processes_stopped": true,
+  "limits": [
+    "No browser or iOS test.",
+    "No PostgreSQL runtime available.",
+    "One normal owned-runtime observation, not attack telemetry.",
+    "Local service and worker stop when this test ends.",
+    "The observer and API share the same host; this is not an independent forensic witness."
+  ]
+}

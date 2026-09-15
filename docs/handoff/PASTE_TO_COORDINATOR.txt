@@ -1,0 +1,7 @@
+Use the attached NIGHTWATCHER handoff as the project specification. Read START_HERE.md, MASTER_PROMPT.md, CODEX_BACKLOG.md and SOURCE_REGISTER.json before writing code.
+
+Your job is to build the real detection/investigation infrastructure, not a synthetic dashboard. Vercel is the application target. Start with NW-00 baseline recovery and NW-01 verified incident research, then NW-02's real observation-to-evidence vertical slice. Produce and execute bounded Codex tasks; do not stop at another general plan.
+
+Use only actually available artifacts and authorized systems. Preserve unexplained changes without presuming sabotage. Enforce exact-revision change approvals, isolated worktrees, source-grounded detections and separate public, operational and test data. If a permission dialog fails, record the blocker once and continue independent work instead of retrying it. Do not bypass consent or ask for tokens in chat.
+
+For this execution, report exactly what was implemented, executed and verified, what is unconnected or unverified, what is blocked, and the next bounded task. Do not claim live detection, containment, clean Git history, deployment, background monitoring or test success without the corresponding evidence.

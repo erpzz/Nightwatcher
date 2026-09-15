@@ -1,0 +1,19 @@
+{
+  "scope": "Listed Python source/tests and dependency declarations only; excludes reports and this manifest.",
+  "files": {
+    "nightwatcher/__init__.py": "cb1da0032e3adfb1df9b6262d3967958a4d2f4e4b99815dcc5ffe04ff62b4950",
+    "nightwatcher/__main__.py": "d80492106c5751d3686a691e00cc96c43f6cd4ab767ce9131841162f3041ef43",
+    "nightwatcher/api.py": "94b0e3df381993b07736fe2d6047413ac442c220e9d4076f36248fd771b7484b",
+    "nightwatcher/contracts.py": "8776d37c7f54237da6c9ec3e6e294aa6813a877c8d573df33c4367237f180c0d",
+    "nightwatcher/rules.py": "0a41e42f9e95de48accaa90578ec93580b6333e9af51c1cd742169d23da91e3f",
+    "nightwatcher/store.py": "fba625c9d872e35e8ff1b9d2c7221dcf7b2397d3d3ac028382c8b8db5af9df2e",
+    "requirements-dev.txt": "934fbb549ab3209320a68f549631f92ffa7dcd1372d15620c148eb5f55bd7735",
+    "requirements.txt": "93959e97dd335ab1326d191f092e74f7f22273c5048d5b43851f867cda405e66",
+    "tests/__init__.py": "a744dc5d77a90383be7554c0d2de0049cd4b3103bb0405e6ba82ee9729676af8",
+    "tests/test_evidence.py": "525683decac277e11e0dfc9888fc7222aa3bfe39adcac7776055117dcdacefb9",
+    "tests/test_review_guard.py": "4413315f5d3885f943e49b586a272e1e094d5a4627b51bb3d6d20414a1989dd7",
+    "tools/review_guard.py": "fbc551cfc81ae49333393dd548f2cff01807d42b73cc7edba38243a1a37b3e75",
+    "tools/verify_http.py": "fd38f6531fb13521d855eaddfb908e4752a886dfa63b68660d6976aa388200fa"
+  },
+  "approval": "PROPOSED_NOT_OWNER_APPROVED"
+}
