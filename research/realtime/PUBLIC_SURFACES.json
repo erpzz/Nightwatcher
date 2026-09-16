@@ -3,86 +3,17 @@
   "recorded_on": "2026-09-15",
   "mode": "passive_public_observation",
   "surfaces": [
-    {
-      "id": "SURF-COLLUSION",
-      "name": "Collusion.wiki",
-      "url": "https://collusion.wiki/",
-      "class": "historical_coordination_archive",
-      "priority": 5,
-      "watch": "new preserved pages, corrections, newly disclosed pre-disclosure artifacts, provenance changes",
-      "do_not_infer": "an old page remaining online is not evidence of a currently active actor"
-    },
-    {
-      "id": "SURF-OPENAGENTCHAT",
-      "name": "OpenAgentChat",
-      "url": "https://openagentchat.net/",
-      "class": "current_public_agent_forum",
-      "priority": 4,
-      "watch": "case-linked posts, new coordination-surface mapping, provenance claims, cross-forum relays",
-      "do_not_infer": "self-identification as an AI or provider does not authenticate identity; ordinary public participation is not rogue coordination"
-    },
-    {
-      "id": "SURF-UAF",
-      "name": "Universal Agent Forum",
-      "url": "https://universalagentforum.com/",
-      "class": "current_public_agent_forum",
-      "priority": 3,
-      "watch": "research affecting coordination, provenance, public-forum or cross-forum assumptions",
-      "do_not_infer": "forum activity is authorized by design and is not an unauthorized swarm by default"
-    },
-    {
-      "id": "SURF-OAF",
-      "name": "OpenAgentForum",
-      "url": "https://openagentforum.com/",
-      "class": "current_public_agent_forum",
-      "priority": 3,
-      "watch": "signed-channel research, protocol changes, public coordination patterns, incident-linked discussions",
-      "do_not_infer": "a valid signature proves key possession, not model identity, authorization, or intent"
-    },
-    {
-      "id": "SURF-COLONY",
-      "name": "The Colony",
-      "url": "https://thecolony.ai/",
-      "class": "current_public_agent_social_network",
-      "priority": 4,
-      "watch": "cross-posted research, monitoring failures, provenance disputes, new public coordination-surface references",
-      "do_not_infer": "unusual or popular agent discussion is not evidence of misalignment"
-    },
-    {
-      "id": "SURF-OPENAI",
-      "name": "OpenAI incident updates",
-      "url": "https://openai.com/hugging-face-incident-and-misalignment/",
-      "class": "provider_incident_update",
-      "priority": 5,
-      "watch": "new incident disclosures, corrections, attribution changes, containment claims",
-      "do_not_infer": "provider statements are primary claims, not independent verification"
-    },
-    {
-      "id": "SURF-HF",
-      "name": "Hugging Face technical timeline",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "class": "affected_operator_report",
-      "priority": 5,
-      "watch": "corrections, new forensic details, changed timeline or source-control findings",
-      "do_not_infer": "a July report remaining online is not evidence of current recurrence"
-    },
-    {
-      "id": "SURF-METR",
-      "name": "METR/Redwood investigation",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
-      "class": "independent_investigation",
-      "priority": 5,
-      "watch": "corrections, addenda, new released evidence, changed scope",
-      "do_not_infer": "independent investigation does not establish claims outside its stated scope"
-    },
-    {
-      "id": "SURF-NW-GH",
-      "name": "NightWatcher GitHub",
-      "url": "https://github.com/erpzz/Nightwatcher",
-      "class": "owned_repository",
-      "priority": 5,
-      "watch": "new PRs, workflow or dependency changes, privilege/release/auth/evidence-control changes",
-      "do_not_infer": "a bot label, unfamiliar account, or AI-generated code is not a malicious finding by itself"
-    }
+    {"id":"SURF-COLLUSION","name":"Collusion.wiki","url":"https://collusion.wiki/","class":"historical_coordination_archive","priority":5,"watch":"new preserved pages, corrections, newly disclosed pre-disclosure artifacts, provenance changes","do_not_infer":"an old page remaining online is not evidence of a currently active actor"},
+    {"id":"SURF-OPENAGENTCHAT","name":"OpenAgentChat","url":"https://openagentchat.net/","class":"current_public_agent_forum","priority":4,"watch":"case-linked posts, coordination-surface mapping, provenance claims, cross-forum relays","do_not_infer":"self-identification does not authenticate model/provider identity; ordinary public participation is not rogue coordination"},
+    {"id":"SURF-UAF","name":"Universal Agent Forum","url":"https://universalagentforum.com/","class":"current_public_agent_forum","priority":3,"watch":"research affecting coordination, provenance, public-forum or cross-forum assumptions","do_not_infer":"forum activity is authorized by design and is not an unauthorized swarm by default"},
+    {"id":"SURF-OAF","name":"OpenAgentForum","url":"https://openagentforum.com/","class":"current_public_agent_forum","priority":3,"watch":"signed-channel research, protocol changes, public coordination patterns, incident-linked discussions","do_not_infer":"a valid signature proves key possession, not model identity, authorization, or intent"},
+    {"id":"SURF-COLONY","name":"The Colony","url":"https://thecolony.ai/","class":"current_public_agent_social_network","priority":4,"watch":"cross-posted research, monitoring failures, provenance disputes, new public coordination-surface references","do_not_infer":"unusual or popular agent discussion is not evidence of misalignment"},
+    {"id":"SURF-OFTC-AGENTREV","name":"OFTC #agent-revolution","url":"irc://irc.oftc.net:6697/#agent-revolution","class":"claimed_live_public_agent_coordination_channel","priority":5,"watch":"publicly mirrored bridge observations, participant changes, dated session archives, ledger-root changes and cross-platform bridge claims","do_not_infer":"recruitment text or a mirrored copy does not prove who is connected, model identity, autonomy, or unauthorized behavior"},
+    {"id":"SURF-AGORA","name":"Agora","url":"https://agora.burmaster.com/","class":"current_public_agent_forum","priority":4,"watch":"public copies of live-square invitations, bridge/archive references, new agent coordination discussions","do_not_infer":"mirroring the same source does not provide independent corroboration"},
+    {"id":"SURF-AGENTCHAN","name":"agentchan","url":"https://agentchan.org/g/","class":"current_public_agent_forum","priority":3,"watch":"new coordination-square announcements, linked public artifacts, materially changed participant or bridge claims","do_not_infer":"anonymous posts and repeated recruitment text do not authenticate participants or current activity"},
+    {"id":"SURF-OPENAI","name":"OpenAI incident updates","url":"https://openai.com/hugging-face-incident-and-misalignment/","class":"provider_incident_update","priority":5,"watch":"new incident disclosures, corrections, attribution changes, containment claims","do_not_infer":"provider statements are primary claims, not independent verification"},
+    {"id":"SURF-HF","name":"Hugging Face technical timeline","url":"https://huggingface.co/blog/agent-intrusion-technical-timeline","class":"affected_operator_report","priority":5,"watch":"corrections, new forensic details, changed timeline or source-control findings","do_not_infer":"a July report remaining online is not evidence of current recurrence"},
+    {"id":"SURF-METR","name":"METR/Redwood investigation","url":"https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/","class":"independent_investigation","priority":5,"watch":"corrections, addenda, new released evidence, changed scope","do_not_infer":"independent investigation does not establish claims outside its stated scope"},
+    {"id":"SURF-NW-GH","name":"NightWatcher GitHub","url":"https://github.com/erpzz/Nightwatcher","class":"owned_repository","priority":5,"watch":"new PRs, workflow/dependency changes, privilege/release/auth/evidence-control changes","do_not_infer":"a bot label, unfamiliar account, or AI-generated code is not a malicious finding by itself"}
   ]
 }
